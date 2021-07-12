@@ -21,7 +21,7 @@ const Header = ({onClick , type}) => {
         <div className = 'header'>
             <h1>Movies </h1>
             <Button  background = 'black' className = 'btn' onClick = {handleClick}>
-                    Menu
+                    {type}
             </Button>
             <Menu 
                 anchorEl = {anchor}
